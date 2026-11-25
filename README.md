@@ -1,4 +1,4 @@
-# snapback-sh
+# Snapback
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-snapback-sh is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://snapback.sh/
+Snapback provides an AI Agent Operations platform that diagnoses and resolves failures in AI agents. It offers live monitoring, root‑cause analysis, and automated fixes for issues such as infinite loops, hallucinated tool calls, token budget overruns, and other runtime errors. The service includes a pay‑per‑call pricing model, free tier, and self‑hosted options, targeting developers using tools like OpenClaw, Hermes, Claude Code, LangChain, and various LLMs.
+
+**Areas:** AI · AgentOps · Debugging · Monitoring · MCP
+
+## Snapback on APIs.io
+
+Everything profiled for Snapback is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/snapback-sh/](https://apis.io/providers/snapback-sh/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Snapback Agents API](https://apis.io/apis/snapback-sh/snapback-sh-agents-api/) — The Agents API from Snapback — 1 operation(s) for agents.
+- [Snapback Channels API](https://apis.io/apis/snapback-sh/snapback-sh-channels-api/) — The Channels API from Snapback — 1 operation(s) for channels.
+- [Snapback Failure Classes API](https://apis.io/apis/snapback-sh/snapback-sh-failure-classes-api/) — The Failure Classes API from Snapback — 1 operation(s) for failure classes.
+- [Snapback Health API](https://apis.io/apis/snapback-sh/snapback-sh-health-api/) — The Health API from Snapback — 3 operation(s) for health.
+- [Snapback Internal API](https://apis.io/apis/snapback-sh/snapback-sh-internal-api/) — The Internal API from Snapback — 114 operation(s) for internal.
+- [Snapback MCP API](https://apis.io/apis/snapback-sh/snapback-sh-mcp-api/) — The Mcp API from Snapback — 2 operation(s) for mcp.
+- [Snapback Sources API](https://apis.io/apis/snapback-sh/snapback-sh-sources-api/) — The Sources API from Snapback — 2 operation(s) for sources.
+- [Snapback Status API](https://apis.io/apis/snapback-sh/snapback-sh-status-api/) — The Status API from Snapback — 1 operation(s) for status.
+- [Snapback Verdicts API](https://apis.io/apis/snapback-sh/snapback-sh-verdicts-api/) — The Verdicts API from Snapback — 2 operation(s) for verdicts.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Snapback Agentic Access](https://apis.io/agentic-access/snapback-sh/snapback-sh-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FeedbackIn](https://apis.io/schemas/snapback-sh/snapback-sh-feedback-in/)
+- [OAuthIn](https://apis.io/schemas/snapback-sh/snapback-sh-oauth-in/)
+- [PasswordResetIn](https://apis.io/schemas/snapback-sh/snapback-sh-password-reset-in/)
+- [PromoteIn](https://apis.io/schemas/snapback-sh/snapback-sh-promote-in/)
+- [SignupIn](https://apis.io/schemas/snapback-sh/snapback-sh-signup-in/)
+- [SourceIn](https://apis.io/schemas/snapback-sh/snapback-sh-source-in/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Snapback Sh Context](https://apis.io/jsonld/snapback-sh/snapback-sh-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Snapback API Rules](https://apis.io/rules/snapback-sh/snapback-sh-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Snapback Domain Security](https://apis.io/security/snapback-sh/snapback-sh-domain-security/)
+- [Snapback Vulnerability Disclosure](https://apis.io/security/snapback-sh/snapback-sh-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Snapback Plans Pricing](https://apis.io/plans/snapback-sh/snapback-sh-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Snapback Rate Limits](https://apis.io/rate-limits/snapback-sh/snapback-sh-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://snapback.sh/)
+- [Documentation](https://snapback.sh/docs)
+- [Pricing](https://snapback.sh/pricing)
+- [Support](https://snapback.sh/contact)
+- [Blog](https://snapback.sh/blog)
+- [Security](https://snapback.sh/security)
+- [Terms of service](https://snapback.sh/legal/terms)
+- [Privacy policy](https://snapback.sh/legal/privacy)
+- [Status](https://snapback.sh/status)
+
+## API Evangelist rating
+
+**Kin Score 55.8** — strong · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 54.7 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 73.2 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/snapback-sh/](https://apis.io/providers/snapback-sh/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Snapback: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/snapback-sh/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
